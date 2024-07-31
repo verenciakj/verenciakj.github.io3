@@ -1,0 +1,95 @@
+.text{
+    display: flex;
+   
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fffefe;
+    font-size: 17px;
+}
+
+.content{
+    text-align: center;
+    margin-top: 12em;
+    margin-left: 36em;
+}
+
+.content h1{
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+h1:hover{
+    color: rgb(161, 185, 178);
+    transition: 0.5s;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 18px;
+    ont-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:hover{
+    color: rgb(161, 185, 178);
+    transition: 0.5s;
+}
+
+.content a:hover{
+    background-color: rgb(161, 185, 178);
+    transition: 0.4s;
+    color: white;
+}
+
+.bg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
